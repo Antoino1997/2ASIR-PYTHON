@@ -5,4 +5,5 @@ def registrar_usuario(nombre, edad, ciudad="Madrid"):
 # Llamadas válidas
 registrar_usuario("Antonio", 28, "Huelva") #Posicionales
 registrar_usuario("Antonio", 28) #Ciudad omitida
+
 registrar_usuario(ciudad="Huelva", nombre="Antonio", edad=28) #Argumentos desordenados
