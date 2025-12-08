@@ -1,18 +1,12 @@
-"""
-Script match-case en el que recoge dos números
-Y un operador pasados por teclado.
-"""
-num_1 = int(input('Número 1: ')) #Número 1
-num_2 = int(input('Número 2: ')) #Número 2
-oper = (input('Escoge un operador (suma, resta, multiplicacion, division): ')) #Operador
+num = int(input("Introduce el número del cuál quieres mostrar la tabla de multriplicar: "))
 
-if oper == "suma": #Suma
-    print(num_1 + num_2)
-elif oper == "resta": #Resta
-    print(num_1 - num_2)
-elif oper == "multiplicacion": #Multiplicación
-    print(num_1 * num_2)
-elif oper == "division": #División
-    print(num_1 / num_2)
-else: #En caso de error
-    print("Escoge un operador valido")
+print(f"{num} * 1 =", num * 1)
+print(f"{num} * 2 =", num * 2)
+print(f"{num} * 3 =", num * 3)
+print(f"{num} * 4 =", num * 4)
+print(f"{num} * 5 =", num * 5)
+print(f"{num} * 6 =", num * 6)
+print(f"{num} * 7 =", num * 7)
+print(f"{num} * 8 =", num * 8)
+print(f"{num} * 9 =", num * 9)
+print(f"{num} * 10 =", num * 10)
